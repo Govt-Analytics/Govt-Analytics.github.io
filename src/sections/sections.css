@@ -1,0 +1,28 @@
+.govt-logo{
+    
+    position: relative;
+    display: block;    
+    padding-top: 0.24%;
+    padding-left: 5%;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: var(--fonts);
+}
+
+.nav-heigth{
+    height: 5.3rem;    
+}
+
+.govt-background-color{
+    background-color: var(--main);
+}
+
+.navbar-shadow{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.section-border{
+    border-bottom-style: solid;
+    border-bottom-width: 0.1px;
+    border-bottom-color: #eeeeee;
+}
