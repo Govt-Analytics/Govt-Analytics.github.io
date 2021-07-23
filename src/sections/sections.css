@@ -26,3 +26,32 @@
     border-bottom-width: 0.1px;
     border-bottom-color: #eeeeee;
 }
+
+.member-photo{
+    width: 60%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+
+}
+
+.no-margin{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.font-size-5{
+    font-size: 5rem;
+}
+
+.font-size-2{
+    font-size: 1.3rem;
+}
+
+.presentation-label{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    
+
+}

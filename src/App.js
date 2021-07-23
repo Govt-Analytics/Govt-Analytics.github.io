@@ -17,11 +17,14 @@ function App() {
         <NavBar></NavBar>
       </header>
       <main>
-        <div className='container'>
-          <Presentation></Presentation>
-          <Team></Team>         
-          <Services></Services>
-          <Contact></Contact>
+        <div>
+          <div className="presentation">
+            <div className='container'> <Presentation ></Presentation> </div>
+          </div>
+          
+          <div className='container'><Services></Services> </div>
+          <div className='container'><Contact></Contact> </div>
+          <div className='container'><Team></Team>  </div>
 
         </div>        
       </main>
