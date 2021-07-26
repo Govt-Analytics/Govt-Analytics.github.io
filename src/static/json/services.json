@@ -1,0 +1,8 @@
+{
+"services":[
+    {"name":"Ingeniería de datos", "description":"Recolección, creación de pipelines para la orquestación del almacenamiento, traslado, transformación y exploración de datos que alimentan servicios de visualización, análisis y modelado de información."},
+    {"name":"Canales inteligentes de atención al cliente y/o ciudadano", "description":"Diseño, creación y despliegue de canales inteligentes de atención al cliente como chatbots o centros de atención para una eficiente y automatizada comunicación."},
+    {"name":"Analitica de datos y creación de herramientas de BI", "description":"Diseño, creación y despliegue de herramientas BI o dashboards de visualización para el soporte en la analitica y toma de decisiones."},
+    {"name":"Consultoría de análisis predictivo", "description":"Análisis de casos de negocio para la creación de algoritmos de aprendizaje de máquina precisos que se ajusten a las necesidades particulares."}
+]
+}
