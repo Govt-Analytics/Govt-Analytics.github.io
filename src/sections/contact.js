@@ -4,7 +4,7 @@ class Contact extends Component{
 
     render(){
         return(
-            <div className='row section-border'>
+            <div className='row section-border' id='contact'>
                 <h1 className='center-align'>CONTACT</h1>
             </div>
         )

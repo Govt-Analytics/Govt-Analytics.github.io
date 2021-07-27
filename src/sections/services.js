@@ -13,7 +13,7 @@ class Services extends Component{
         let services = this.state.services.map((service)=>{return <ServiceCard key={"SC_"+service.name} info={service}/>})
 
         return(
-            <div className='row section-border'>
+            <div className='row section-border' id='services'>
                 <h5>Nuestros Servicios</h5>
                 <div className="col m12">                    
                     {services}                    

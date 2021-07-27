@@ -4,7 +4,7 @@ class Presentation extends Component{
 
     render(){
         return(
-            <div className='row section-border'>
+            <div className='row section-border' id='home'>
                 <div className='presentation-label'>
                 <p className='center-align white-text font-size-5 no-margin'>Govt Analytics</p>
                 <p className="center-align white-text font-size-2 no-margin">Análisis y servicios inteligentes para el sector público.</p>

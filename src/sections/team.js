@@ -13,7 +13,7 @@ class Team extends Component{
         const members = this.state.memebers.map((member)=>{return <MemberCard key={"MC_"+member.email} info={member}/>})
                    
         return(
-            <div className='row section-border'>
+            <div className='row section-border' id='team'>
                 <h5>Nuestro Equipo</h5>
                 <div className="col m12">                    
                     {members}                    
