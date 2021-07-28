@@ -14,7 +14,7 @@ class Services extends Component{
 
         return(
             <div className='row section-border' id='services'>
-                <h5>Nuestros Servicios</h5>
+                <h5 className="section-title">Nuestros Servicios</h5>
                 <div className="col m12">                    
                     {services}                    
                 </div> 

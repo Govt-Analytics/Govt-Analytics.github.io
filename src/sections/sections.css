@@ -34,6 +34,13 @@
     border-bottom-color: #eeeeee;
 }
 
+.section-title{
+    padding-top: 1%;
+    border-bottom-style: solid;
+    width: max-content;
+
+}
+
 .member-photo{
     width: 60%;
     display: block;

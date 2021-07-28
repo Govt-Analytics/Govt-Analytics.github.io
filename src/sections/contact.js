@@ -5,7 +5,10 @@ class Contact extends Component{
     render(){
         return(
             <div className='row section-border' id='contact'>
-                <h1 className='center-align'>CONTACT</h1>
+                <h5 className="section-title">Contactanos</h5>
+                <ul>
+                    <li><b>Email:</b> govtanalytics.info@gmail.com</li>
+                </ul>
             </div>
         )
     }
