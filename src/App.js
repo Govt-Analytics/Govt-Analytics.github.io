@@ -23,8 +23,8 @@ function App() {
           </div>
           
           <div className='container'><Services></Services> </div>
-          <div className='container'><Contact></Contact> </div>
           <div className='container'><Team></Team>  </div>
+          <div className='container'><Contact></Contact> </div>
 
         </div>        
       </main>

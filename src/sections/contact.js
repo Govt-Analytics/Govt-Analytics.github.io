@@ -5,7 +5,7 @@ class Contact extends Component{
     render(){
         return(
             <div className='row section-border' id='contact'>
-                <h5 className="section-title">Contactanos</h5>
+                <h4 className="section-title">Contactanos</h4>
                 <ul>
                     <li><b>Email:</b> govtanalytics.info@gmail.com</li>
                 </ul>

@@ -14,7 +14,7 @@ class Team extends Component{
                    
         return(
             <div className='row section-border' id='team'>
-                <h5 className="section-title">Nuestro Equipo</h5>
+                <h4 className="section-title">Nuestro Equipo</h4>
                 <div className="col m12">                    
                     {members}                    
                 </div>                
