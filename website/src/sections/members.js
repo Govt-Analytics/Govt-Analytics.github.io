@@ -16,10 +16,10 @@ class MemberCard extends Component {
                         
 
                         
-                        <h6>{this.props.info.name}</h6>
+                        <h6 className="govt-grey">{this.props.info.name}</h6>
                         <p>
-                            <span><b>email:</b> {this.props.info.email}</span><br />
-                            <span><a href={this.props.info.website}>{this.props.info.website}</a></span>
+                            <span className="width-max govt-grey" ><b>email:</b> {this.props.info.email}</span><br />
+                            <span ><a className="width-max " href={this.props.info.website}>{this.props.info.website}</a></span>
                         </p>
                     </div>
                 </div>

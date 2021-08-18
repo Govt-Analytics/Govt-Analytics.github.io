@@ -1,19 +1,46 @@
 .govt-logo{
     
-    position: relative;
+    position: absolute;
     display: inline-block;
-    padding-top: 0.24%;
-    padding-left: 5%;
     font-size: 1.9rem;
-    font-weight: bold;
     color: var(--fonts);
     width: max-content;
+    margin-top: 0.4%;
+    margin-left: 6.5%;
+    
+}
+
+.govt-icon{
+    
+    position: absolute;
+    display: inline-block;
+    width: 2.5%;
+    margin-left: 2.8%;
+    height: 100%;    
+}
+
+.separator{
+    position: absolute;
+    display: inline-block;
+    margin-left: 6%;
+    margin-top: 0.5%;
+    width: 0px;
+    height: 70%; 
+
+    border-color: white;
+
 }
 
 .govt-sections{
-    position: relative;
-    display: inline-block;
-    padding-top: 0.24%;
+    padding-top: 0.3%;
+}
+
+.govt-orange{
+    color: var(--orange);
+}
+
+.govt-grey{
+    color: var(--grey);
 }
 
 .nav-heigth{
@@ -21,7 +48,7 @@
 }
 
 .govt-background-color{
-    background-color: var(--main);
+    background-color: var(--white);
     
 }
 
@@ -35,9 +62,17 @@
     border-bottom-color: #eeeeee;
 }
 
+.width-max{
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+}
+
 .section-title{
     padding-top: 1%;
     border-bottom-style: solid;
+    border-color: var(--orange);
+    color: var(--grey);
     width: max-content;
     margin: 0 auto;
     margin-bottom: 4%;
@@ -58,8 +93,16 @@
     margin-bottom: 0;
 }
 
-.font-size-5{
-    font-size: 5rem;
+.bold{
+    font-weight: bold;
+}
+
+.font-size-4{
+    font-size: 4rem;
+}
+
+.font-size-8{
+    font-size: 8rem;
 }
 
 .font-size-2{
@@ -69,6 +112,7 @@
 .presentation-label{
     padding-top: 30%;
     padding-bottom: 30%;   
+    line-height: 1;
 
 }
 

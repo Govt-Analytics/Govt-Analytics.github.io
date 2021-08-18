@@ -6,7 +6,7 @@ class Contact extends Component{
         return(
             <div className='row section-border' id='contact'>
                 <h4 className="section-title">Contactanos</h4>
-                <ul>
+                <ul className="govt-grey">
                     <li><b>Email:</b> govtanalytics.info@gmail.com</li>
                 </ul>
             </div>

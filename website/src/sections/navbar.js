@@ -5,10 +5,10 @@ import './sections.css'
 class NavBar extends Component {
 
 
-    constructor(props){
+    constructor(props) {
         super(props);
 
-        this.handleScroll =  this.handleScroll.bind(this)
+        this.handleScroll = this.handleScroll.bind(this)
     }
 
     componentDidMount() {
@@ -16,10 +16,10 @@ class NavBar extends Component {
         M.Sidenav.init(elems, {});
     }
 
-    handleScroll(e, section){
+    handleScroll(e, section) {
         e.preventDefault();
-        
-        const anchor = document.querySelector('#'+section)
+
+        const anchor = document.querySelector('#' + section)
         anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
     }
 
@@ -29,12 +29,16 @@ class NavBar extends Component {
             <div className="navbar-fixed">
                 <nav className='govt-background-color navbar-shadow nav-heigth'>
                     <div className="nav-wrapper">
-                        <a href="." className="govt-logo"> Govt Analytics</a>
+
+                        <img className="govt-icon" alt="logo" src={"svg/govt_icon.svg"} />
+                        <hr className="separator" />
+                        <a href="." className="govt-logo"> <span className="govt-grey bold">Govt</span> <span className="govt-orange">Analytics</span></a>
+
                         <ul className="right hide-on-med-and-down govt-sections">
-                            <li><a className="black-text" href="#home" onClick={(e) => this.handleScroll(e, 'home')}>INICIO</a></li>
-                            <li><a className="black-text" href="#services" onClick={(e) => this.handleScroll(e, 'services')}>SERVICIOS</a></li>
-                            <li><a className="black-text" href="#contact" onClick={(e) => this.handleScroll(e, 'contact')}>CONTACTO</a></li>
-                            <li><a className="black-text" href="#team" onClick={(e) => this.handleScroll(e, 'team')}>EQUIPO</a></li>
+                            <li><a className="govt-grey" href="#home" onClick={(e) => this.handleScroll(e, 'home')}>INICIO</a></li>
+                            <li><a className="govt-grey" href="#services" onClick={(e) => this.handleScroll(e, 'services')}>SERVICIOS</a></li>
+                            <li><a className="govt-grey" href="#contact" onClick={(e) => this.handleScroll(e, 'contact')}>CONTACTO</a></li>
+                            <li><a className="govt-grey" href="#team" onClick={(e) => this.handleScroll(e, 'team')}>EQUIPO</a></li>
                         </ul>
                     </div>
                 </nav>

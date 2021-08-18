@@ -14,7 +14,7 @@
 }
 
 .App-footer{
-  background-color: var(--second);
+  background-color: var(--orange);
 }
 
 .App-header {
@@ -42,9 +42,9 @@
 }
 
 .presentation{
-  background-color: #282c34;
+  background-color: var(--orange);
   
-  background-image: url("static/imgs/background.png");
+  background-image: url("static/imgs/background_white.png");
   
   
   background-position: center;

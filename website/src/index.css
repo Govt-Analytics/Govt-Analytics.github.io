@@ -29,4 +29,7 @@ html {
   --main: white;
   --fonts: black;
   --second: grey;
+  --white: #fffdfa;
+  --grey: #606060;
+  --orange: #ec8d02;
 }
