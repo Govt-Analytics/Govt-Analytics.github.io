@@ -31,14 +31,15 @@ class NavBar extends Component {
                     <div className="nav-wrapper">
 
                         <img className="govt-icon" alt="logo" src={"svg/govt_icon.svg"} />
-                        <hr className="separator" />
-                        <a href="." className="govt-logo"> <span className="govt-grey bold">Govt</span> <span className="govt-orange">Analytics</span></a>
+                        {/* <hr className="separator" /> */}
+                        <a href="." className="govt-logo"> <span className="govt-grey bold klavika-font">GOVT</span> <span className="govt-orange opificio-font">analytics</span></a>
 
                         <ul className="right hide-on-med-and-down govt-sections">
-                            <li><a className="govt-grey" href="#home" onClick={(e) => this.handleScroll(e, 'home')}>INICIO</a></li>
-                            <li><a className="govt-grey" href="#services" onClick={(e) => this.handleScroll(e, 'services')}>SERVICIOS</a></li>
-                            <li><a className="govt-grey" href="#contact" onClick={(e) => this.handleScroll(e, 'contact')}>CONTACTO</a></li>
-                            <li><a className="govt-grey" href="#team" onClick={(e) => this.handleScroll(e, 'team')}>EQUIPO</a></li>
+                            <li><a className="govt-grey opificio-font" href="#home" onClick={(e) => this.handleScroll(e, 'home')}>INICIO</a></li>
+                            <li><a className="govt-grey opificio-font" href="#services" onClick={(e) => this.handleScroll(e, 'services')}>SERVICIOS</a></li>
+                            <li><a className="govt-grey opificio-font" href="#team" onClick={(e) => this.handleScroll(e, 'team')}>EQUIPO</a></li>
+                            <li><a className="govt-grey opificio-font" href="#contact" onClick={(e) => this.handleScroll(e, 'contact')}>CONTACTO</a></li>
+                            
                         </ul>
                     </div>
                 </nav>

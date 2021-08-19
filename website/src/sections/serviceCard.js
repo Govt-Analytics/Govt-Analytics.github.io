@@ -4,9 +4,9 @@ class ServiceCard extends Component{
 
     render(){
         return(
-            <div className="col s12 m4 service-card govt-grey">
-                <h5>{this.props.info.name}</h5>
-                <p className='justify-align govt-grey'>{this.props.info.description}</p>
+            <div className="col s12 service-card govt-grey">
+                <h5 className="opificio-font">- {this.props.info.name}:</h5>
+                <p className='justify-align govt-grey montserrat-font'>{this.props.info.description}</p>
             </div>
         )
     }

@@ -8,8 +8,8 @@ class Footer extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col l6 s12">
-                            <h5 className="white-text">Govt Analytics</h5>
-                            <p className="grey-text text-lighten-4">Análisis y servicios inteligentes para el sector público.</p>
+                            <h5 className="white-text"><span className="klavika-font bold">GOVT</span> <span className="opificio-font">analytics</span></h5>
+                            <p className="grey-text text-lighten-4 montserrat-font">Análisis y servicios inteligentes para el sector público.</p>
                         </div>
                         {/* <div className="col l4 offset-l2 s12">
                             <h5 className="white-text">Links</h5>

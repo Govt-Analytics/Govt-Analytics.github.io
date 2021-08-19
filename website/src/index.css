@@ -30,6 +30,14 @@ html {
   --fonts: black;
   --second: grey;
   --white: #fffdfa;
-  --grey: #606060;
-  --orange: #ec8d02;
+  --grey: #727172;
+  --orange: #ed8d03;
+
+  /* fonts */
+  --main_font: klavika;
+  --second_font: opificio;
+  --third_font: Montserrat;
+
+  
+  
 }

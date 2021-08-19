@@ -52,3 +52,48 @@
   background-size: cover; 
  
 }
+
+@font-face {
+  font-family: 'klavika';
+  src: local('klavika'), url(./static/fonts/klavika/KlavikaRegular-TF.otf) format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'klavika';
+    src: local('klavika'), url(./static/fonts/klavika/KlavikaBoldBold.otf) format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./static/fonts/Montserrat/MontserratAlternates-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./static/fonts/Montserrat/MontserratAlternates-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'opificio';
+  src: local('opificio'), url(./static/fonts/opificio/Opificio_regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'opificio';
+  src: local('opificio'), url(./static/fonts/opificio/Opificio_Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
